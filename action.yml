@@ -1,0 +1,14 @@
+name: "My Reviewer actions"
+description: "AI-based PR Reviewer"
+author: "TuCN"
+inputs:
+  url:
+    description: "Local AI url"
+    required: true
+    default: "http://localhost:8000/v1/models"
+branding:
+  icon: "activity"
+  color: "green"
+runs:
+  using: "node16"
+  main: "dist/index.js"

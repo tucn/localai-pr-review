@@ -1,0 +1,24 @@
+{
+  "name": "localai-pr-review",
+  "version": "1.0.0",
+  "description": "PR Review action based on local AI",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tucn/localai-pr-review.git"
+  },
+  "keywords": ["localai", "ai-pr-review"],
+  "author": "tucn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tucn/localai-pr-review/issues"
+  },
+  "homepage": "https://github.com/tucn/localai-pr-review#readme",
+  "dependencies": {
+    "typescript": "^5.4.5"
+  }
+}

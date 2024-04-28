@@ -6,6 +6,10 @@ inputs:
     description: "Local AI url"
     required: true
     default: "http://localhost:8000/v1/models"
+  token:
+    description: "Git access token"
+    required: false
+
 branding:
   icon: "activity"
   color: "green"

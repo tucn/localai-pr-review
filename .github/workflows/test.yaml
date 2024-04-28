@@ -30,3 +30,6 @@ jobs:
 
       - name: Run my action
         uses: ./
+        with:
+          url: "http://localhost:8080/api/chat/completions"
+          token: "sometoken"
